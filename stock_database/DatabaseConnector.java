@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DatabaseConnector {
     private static final String URL = "jdbc:mysql://localhost:3306/swing_demo";
-    private static final String USERNAME = "admim";
+    private static final String USERNAME = "admim"; //Hello
     private static final String PASSWORD = "admin";
 
     public static Connection connectDB() {
